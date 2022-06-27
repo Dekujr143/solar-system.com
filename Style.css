@@ -1,0 +1,54 @@
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background: #646464;
+        font-family: Sans-Serif,Arial;
+      }
+      hr {
+        width: 98%;
+        filter: blur(1px);
+      }
+      .nav {
+        top: 0;
+        background: gray;
+        width: 100%;
+        font-size: 20px;
+        text-align: right;
+      }
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgba(255,255,255,0.7);
+        margin-right: 60px;
+        transition: ease-in-out 0.3s;
+      }
+      a:hover {
+        color: white;
+        font-weight: bold;
+      }
+      .content {
+        padding-top: 10px;
+        margin-left: 40px;
+        font-size: 1.2em;
+      }
+      .content p {
+        color: white;
+      }
+      .content h3 {
+        color: gold;
+      }
+      span {
+        color: #d7dee2;
+      }
+      .audio {
+        padding-top: 20px;
+      }
+      .audio audio {
+        height: 30px;
+      }
+      .video video {
+        margin-top: 20px;
+        width: 100%;
+      }

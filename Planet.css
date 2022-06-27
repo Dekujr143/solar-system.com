@@ -1,0 +1,83 @@
+    .bg {
+      background: url('bg.jpeg');
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+    }
+    .solarSystem {
+      background: url('Solar_system.svg.png');
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+    }
+    .Sun {
+      padding-top: 20px;
+    }
+    .Sun img {
+      height: 500px;
+      width: 500px;
+    }
+    .Mercury {
+      padding-top: 120px;
+    }
+    .Mercury img {
+      height: 300px;
+      width: 300px;
+    }
+    .Venus {
+      padding-top: 120px;
+    }
+    .Venus img {
+      height: 300px;
+    }
+    .Earth {
+      padding-top: 120px;
+    }
+    .Earth img {
+      height: 300px;
+      width: 300px;
+    }
+    .Mars {
+      padding-top: 120px;
+    }
+    .Mars img {
+      height: 300px;
+      width: 300px;
+    }
+    .Jupiter {
+      padding-top: 40px;
+    }
+    .Jupiter img {
+      height: 450px;
+      width: 450px;
+    }
+    .Saturn {
+      padding-top: 130px;
+    }
+    .Saturn img {
+      height: 250px;
+      width: 570px;
+    }
+    .Uranus {
+      padding-top: 120px;
+    }
+    .Uranus img {
+      height: 300px;
+      width: 300px;
+    }
+    .Neptune {
+      padding-top: 120px;
+    }
+    .Neptune img {
+      height: 300px;
+      width: 300px;
+    }
+    img {
+      animation: anton 200s infinite;
+      transition-delay: all 5s;
+    }
+    @keyframes anton {
+      100% {
+        transform: rotate(1080deg);
+      }
+    }

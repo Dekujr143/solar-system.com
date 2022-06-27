@@ -1,0 +1,28 @@
+    .bg {
+      background: url('bg.jpeg');
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+    }
+    .Uranus {
+      padding-top: 120px;
+    }
+    .Uranus img {
+      height: 300px;
+      width: 300px;
+    }
+    .Venus {
+      padding-top: 120px;
+    }
+    .Venus img {
+      height: 300px;
+    }
+    img {
+      animation: anton 200s infinite;
+      transition-delay: all 5s;
+    }
+    @keyframes anton {
+      100% {
+        transform: rotate(-1080deg);
+      }
+    }
